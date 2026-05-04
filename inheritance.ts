@@ -1,3 +1,8 @@
+/**
+ * Inheritance is a way that allows a children class to acquire the properties and methods
+ * of another parent class.
+ */
+
 class Person {
   name: string; //common properties
   age: number; //common properties
