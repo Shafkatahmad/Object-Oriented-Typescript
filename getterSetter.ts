@@ -4,12 +4,12 @@
 class BankAccount {
   readonly userId: number;
   userName: string;
-  protected userBalance: number;
+  protected _userBalance: number;
 
   constructor(userId: number, userName: string, userBalance: number) {
     this.userId = userId;
     this.userName = userName;
-    this.userBalance = userBalance;
+    this._userBalance = userBalance;
   }
 
   // // balance k set kortese
@@ -19,7 +19,7 @@ class BankAccount {
 
   // setter use kore korte chai
   set addBalance(amount: number) {
-    this.userBalance = this.userBalance + amount;
+    this._userBalance = this._userBalance + amount;
   }
 
   // // get korbo
@@ -29,7 +29,7 @@ class BankAccount {
 
   // getter use kore get korte chai
   get getBalance() {
-    return this.userBalance;
+    return this._userBalance;
   }
 }
 
