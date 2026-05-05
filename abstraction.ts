@@ -1,6 +1,8 @@
 /**
  * abstraction --> idea pai. how it works? doesn't know
- * abstraction can be implemented in 2 ways: 1. interface, 2. abstract class
+ * abstraction can be implemented in 2 ways: 1. interface, 2. abstract class.
+ * 1. interface -> implements -> instance
+ * 2. abstraction -> extends -> instance
  */
 
 // interface MediaPlayer {
